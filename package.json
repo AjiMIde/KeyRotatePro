@@ -1,0 +1,26 @@
+{
+  "name": "key-rotate-pro",
+  "version": "1.0.0",
+  "description": "The rotate project for award activity,use require.js and grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "require.js",
+    "grunt.js",
+    "award",
+    "activity"
+  ],
+  "author": "AJI",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

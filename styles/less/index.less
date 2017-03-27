@@ -1,0 +1,112 @@
+body {
+  font-size: 18px;
+}
+
+@imgUrl: '../../resources/imgs/';
+
+/* 大转盘样式 */
+.turnplateBox{
+  position: relative;
+  height: 350px;
+  background-color: #d32a09;
+  width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  .turnplate{
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    position: relative;
+  }
+  .turnplatePointer{
+    background-image: url('../../resources/imgs/turntable_2.png');
+    width: 80px;
+    height: 113px;
+    position: absolute;
+    background-size: 100%;
+    top: 100px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  span.block{
+    display: block;
+    height: 121px;
+    width: 110px;
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    margin-left: -55px;
+    -webkit-transform-origin: bottom;
+    -moz-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    -o-transform-origin: bottom;
+    transform-origin: bottom;
+    text-align: center;
+    font-size: 16px;
+    color: #d32a09;
+  }
+  .prize {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    span:nth-child(1) {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    span:nth-child(2) {
+      -webkit-transform: rotate(60deg);
+      -moz-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+      -o-transform: rotate(60deg);
+      transform: rotate(60deg);
+    }
+    span:nth-child(3) {
+      -webkit-transform: rotate(120deg);
+      -moz-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+      -o-transform: rotate(120deg);
+      transform: rotate(120deg);
+    }
+    span:nth-child(4) {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+    span:nth-child(5) {
+      -webkit-transform: rotate(240deg);
+      -moz-transform: rotate(240deg);
+      -ms-transform: rotate(240deg);
+      -o-transform: rotate(240deg);
+      transform: rotate(240deg);
+    }
+    span:nth-child(6) {
+      -webkit-transform: rotate(300deg);
+      -moz-transform: rotate(300deg);
+      -ms-transform: rotate(300deg);
+      -o-transform: rotate(300deg);
+      transform: rotate(300deg);
+    }
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+//.turnplate canvas.item{width:100%;}
+//.turnplate .pointer{position:absolute;width:30%;height:30%;left:35%;top:35%; background: url(../images/turnplate-pointer.png); background-size: 100% 100%;}
+// .turnplate .pointer div{font-size:12px; text-align: center; line-height: 1.5; padding-top:55%;}
+ #wheelcanvas2{width:100%; height:100%;}
